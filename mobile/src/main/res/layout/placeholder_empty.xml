@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/container_empty"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fillViewport="true">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:padding="@dimen/global_keyline_16">
+
+		<ImageView
+			android:layout_width="@dimen/placeholder_image_size"
+			android:layout_height="@dimen/placeholder_image_size"
+			android:layout_marginBottom="@dimen/global_spacing_32"
+			android:adjustViewBounds="true"
+			android:scaleType="fitCenter"
+			android:src="@drawable/navigation_header_logo"
+			android:contentDescription="@string/placeholder_empty" />
+
+
+		<Button
+			android:id="@+id/vermasButton"
+			android:layout_width="142dp"
+			android:layout_height="wrap_content"
+			android:background="@drawable/btn_gradient_accent"
+			android:gravity="center"
+			android:text="@string/placeholder_mas"
+			android:textAppearance="@style/TextAppearance.WebViewApp.Subhead"
+			android:textColor="@color/item_text_color" />
+
+
+
+	</LinearLayout>
+</ScrollView>

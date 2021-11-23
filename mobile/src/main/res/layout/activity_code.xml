@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login">
+    <RelativeLayout
+        android:background="#D5000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:id="@+id/img_splash"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/TextViewBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_splash"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="Bienvenido"
+            android:textSize="30sp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/TextViewclickGenerarCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextViewBienvenida"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="Ingrese Codigo para continuar"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextViewclickGenerarCodigo"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text=""
+            android:visibility="gone"
+            android:layout_marginBottom="5dp"
+            android:textSize="36sp"
+            android:textColor="@color/white" />
+
+
+        <EditText
+            android:id="@+id/editTextCodigoEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewCodigo"
+            android:gravity="center"
+            android:visibility="gone"
+            android:hint="Escribir codigo"
+            android:layout_marginHorizontal="30dp"
+            android:shadowColor="#FBFBFB"
+            android:textColor="#F4F2F2"
+            android:textColorHint="#A89393"
+            app:backgroundTint="#fff" />
+
+        <Button
+            android:id="@+id/btn_codigo"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/editTextCodigoEntrada"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_gradient_accent"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="Obtener Codigo"
+            android:textColor="@color/white" />
+
+
+        <FrameLayout
+            android:id="@+id/native_ad_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_above="@id/textoNovela"
+            />
+
+        <TextView
+            android:id="@+id/textoNovela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

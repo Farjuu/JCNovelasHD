@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" >
+        <shape>
+
+            <solid android:color="@color/item_background_opacity" />
+            <stroke android:width="@dimen/_1sdp" android:color="@color/tv_selector" />
+            <corners android:radius="@dimen/_15sdp" />
+            <padding android:top="@dimen/_5sdp" android:left="@dimen/_5sdp"
+                android:bottom="@dimen/_5sdp" android:right="@dimen/_5sdp" />
+
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+
+            <solid android:color="@color/item_background_opacity" />
+            <corners android:radius="@dimen/_15sdp" />
+            <padding android:top="@dimen/_5sdp" android:left="@dimen/_5sdp"
+                android:bottom="@dimen/_5sdp" android:right="@dimen/_5sdp" />
+
+        </shape>
+    </item>
+</selector>

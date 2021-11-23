@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <ImageView
+        android:id="@+id/Limg_poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@color/colorPrimaryDark"
+        android:contentDescription="@string/background">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/Llogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/navigation_header_logo"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/_16sdp"
+        />
+
+    <TextView
+        android:id="@+id/LselectQuality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="center"
+        android:text="@string/select_quality"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_16sdp"
+        android:layout_below="@id/Llogo"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <LinearLayout
+        android:id="@+id/Lln_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_below="@id/native_ad_container"
+        android:layout_margin="@dimen/_16sdp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible">
+
+
+
+        <LinearLayout
+            android:id="@+id/LlnRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="UselessParent">
+
+                <RadioButton
+                    android:id="@+id/Lhd_hls1"
+                    android:visibility="invisible"
+                    android:checked="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/checkbox_style"
+                    android:text="@string/hd_hls1"
+                    android:textColor="@color/item_text_color"
+                    android:textSize="@dimen/_14sdp"
+                    tools:ignore="SpUsage" />
+
+                <RadioButton
+                    android:id="@+id/Lhd_btn"
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/checkbox_style"
+                    android:text="@string/hd_hls"
+                    android:textColor="@color/item_text_color"
+                    android:textSize="@dimen/_14sdp"
+                    tools:ignore="SpUsage" />
+
+                <RadioButton
+                    android:id="@+id/Lfhd_btn"
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/checkbox_style"
+                    android:text="@string/fhd_hls"
+                    android:textColor="@color/item_text_color"
+                    android:textSize="@dimen/_14sdp"
+                    tools:ignore="SpUsage" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Lbtn_continue_play"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_gradient_accent"
+                android:text="@string/reproducir"
+                android:textColor="@color/item_text_color" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/LprogressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_centerInParent="true" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/revisando_tu_conexion_de_internet"
+        android:textColor="@color/item_text_color" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Ltxt_loading"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/cargando_servidores"
+        android:textColor="@color/item_text_color" />
+
+
+    <TextView
+        android:id="@+id/Ltxt_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/native_ad_container"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/obteniendo_enlaces"
+        android:textColor="@color/item_text_color" />
+
+    <!--    <com.airbnb.lottie.LottieAnimationView-->
+    <!--        android:id="@+id/lottie_continue"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="@dimen/_50sdp"-->
+
+    <!--        android:layout_alignParentBottom="false"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:background="@color/colorPrimaryDark"-->
+    <!--        android:visibility="gone"-->
+    <!--        app:lottie_autoPlay="true"-->
+    <!--        app:lottie_loop="true"-->
+    <!--        app:lottie_rawRes="@raw/down_arrow_animation" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_continue_webview"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="@dimen/_25sdp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginStart="@dimen/_10sdp"-->
+    <!--        android:layout_marginTop="@dimen/_10sdp"-->
+    <!--        android:layout_marginEnd="@dimen/_10sdp"-->
+    <!--        android:layout_marginBottom="@dimen/_160sdp"-->
+    <!--        android:background="@drawable/yellow_btn"-->
+    <!--        android:paddingStart="@dimen/_20sdp"-->
+    <!--        android:paddingEnd="@dimen/_20sdp"-->
+    <!--        android:text="@string/view_now_text"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:visibility="gone" />-->
+
+    <!--    <WebView-->
+    <!--        android:id="@+id/continue_webview"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="@color/colorPrimaryDark"-->
+    <!--        android:visibility="gone">-->
+
+    <!--    </WebView>-->
+
+    <FrameLayout
+        android:id="@+id/native_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@id/LselectQuality"
+        />
+</RelativeLayout>

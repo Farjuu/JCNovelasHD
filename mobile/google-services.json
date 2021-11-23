@@ -1,0 +1,97 @@
+{
+	"project_info": {
+		"project_number": "131211045626",
+		"project_id": "jcserviciosapps-ae650",
+		"storage_bucket": "jcserviciosapps-ae650.appspot.com"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:131211045626:android:420ad378e683fde7c97743",
+				"android_client_info": {
+					"package_name": "com.jcnovelashd.novelasgratis"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "131211045626-f04ukjpniiamk931cr6gkj0v91i11c9j.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyADX3-dAmAWCuXmacm5q7b-NShcfGyFItM"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "131211045626-f04ukjpniiamk931cr6gkj0v91i11c9j.apps.googleusercontent.com",
+							"client_type": 3
+						}
+					]
+				}
+			}
+		},
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:131211045626:android:7b6560d5f0a8bd3ac97743",
+				"android_client_info": {
+					"package_name": "com.jcplayhd.flixpeliculas"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "131211045626-f04ukjpniiamk931cr6gkj0v91i11c9j.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyADX3-dAmAWCuXmacm5q7b-NShcfGyFItM"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "131211045626-f04ukjpniiamk931cr6gkj0v91i11c9j.apps.googleusercontent.com",
+							"client_type": 3
+						}
+					]
+				}
+			}
+		},
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:131211045626:android:7fbf868be99cee93c97743",
+				"android_client_info": {
+					"package_name": "com.jcplaytv.televisiongratis"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "131211045626-f04ukjpniiamk931cr6gkj0v91i11c9j.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyADX3-dAmAWCuXmacm5q7b-NShcfGyFItM"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "131211045626-f04ukjpniiamk931cr6gkj0v91i11c9j.apps.googleusercontent.com",
+							"client_type": 3
+						}
+					]
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}

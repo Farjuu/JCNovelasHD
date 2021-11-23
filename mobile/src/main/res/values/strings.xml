@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">JCNovelasHD</string>
+    <string name="app_store_uri" translatable="false">https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="app_deep_link_host" translatable="false">jcserviciosapps.com</string>
+    <string name="app_deep_link_path" translatable="false">/.*</string>
+    <string name="fcm_default_notification_channel_id" translatable="false">general</string>
+    <string name="fcm_default_notification_channel_title">Notificaciones generales</string>
+
+    <string name="navigation_header_title">JCNovelasHD App</string>
+
+    <string name="global_network_offline">No hay conexión a Internet disponible</string>
+
+    <string name="menu_main_share">Share</string>
+    <string name="placeholder_mas">► Ver Mas</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="placeholder_empty">Not found</string>
+    <string name="placeholder_offline">No hay conexión a Internet disponible</string>
+
+    <string name="permission_read_external_storage">Se requiere permiso para leer archivos</string>
+    <string name="permission_write_external_storage">Se requiere permiso para escribir archivos</string>
+    <string name="permission_access_location">Se requiere permiso para acceder a su ubicación</string>
+    <string name="permission_camera">Se requiere permiso para acceder a su cámara</string>
+    <string name="permission_unknown">Se requiere permiso</string>
+
+    <string name="location_settings_snackbar">La ubicación del dispositivo está inhabilitada</string>
+    <string name="location_settings_confirm">Settings</string>
+
+
+    <string name="appid">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="nativeid">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="interstitial_full_screen">ca-app-pub-3940256099942544/1033173712</string>
+
+   <!-- <string name="appid">ca-app-pub-4983023439726096~7559015226</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4983023439726096/4559895916</string>
+    <string name="nativeid">ca-app-pub-4983023439726096/1933732574</string>
+    <string name="interstitial_full_screen">ca-app-pub-4983023439726096/6859111417</string>
+-->
+
+    <!-- DIALOG  -->
+    <string name="dialog_player_install_title">Instalar Reproductor</string>
+    <string name="dialog_player_install_description">Hola, Instala Nuestro Reproductor Para Reproducir Todos Nuestros Contenidos En Full HD.</string>
+    <string name="dialog_player_install_positive">Instalar Ahora</string>
+    <string name="dialog_player_install_negative">Cancelar</string>
+
+    <string name="main_exit_snackbar">Seguro que quieres salir?</string>
+    <string name="main_exit_confirm">Si</string>
+    <string name="main_rate_snackbar">¿Te gusta esta app? Regalanos 5 Estrella en Play Store, Gracias.</string>
+    <string name="main_rate_confirm">Evaluar</string>
+    <string name="main_downloading">Descargando…</string>
+    <string name="cancel">Cancel</string>
+    <string name="reproducir">Reproducir</string>
+    <string name="maxplayerdescription">Todo nuestro contenido se apoya en JCPlayerHD, Por ello te invitamos a instalar este reproductor GRATIS</string>
+    <string name="allow_permission_text">Permiso garantizados</string>
+
+    <string name="instagram_account" translatable="false">flowdebarriotvshow</string>
+    <string name="messenger_url" translatable="false">m.me/flowdebarriotvshow</string>
+
+    <string name="casty_introduction_text">Utilice este botón para conectarse con Chromecast</string>
+    <string name="cast_play_custom">Chromecast connected</string>
+    <string name="try_again">Try again</string>
+    <string name="keep_watching_text">¿Quieres continuar donde lo dejaste?</string>
+    <string name="exit_yes" translatable="false">Si</string>
+    <string name="exit_no" translatable="false">No</string>
+
+    <string name="select_stream">Elija una opción</string>
+    <string name="select_quality">Cargando Servidores Para Reproducir</string>
+    <string name="fhd_hls" translatable="false">Contenido 1080p</string>
+    <string name="hd_hls" translatable="false">Contenido 720p</string>
+    <string name="hd_hls1" translatable="false">Contenido 480p</string>
+
+    <string name="loading_text">Cargando Anuncios…</string>
+    <string name="loading_text2">Obteniendo Datos, Por Favor Espere…</string>
+    <string name="download_msg">%s It is not installed. Click the button below to install!!</string>
+    <string name="download">download</string>
+    <string name="web_cast_player" translatable="false">Web Video Caster</string>
+    <string name="web_cast_player_package" translatable="false">com.instantbits.cast.webvideo</string>
+    <string name="share_content">I\'m watching %s in the app *%s*, ¡look at all the free there is! \n Download it from Google Play Store Free https://play.google.com/store/apps/details?id=</string>
+    <string name="share_video_text">Shared With %s Download For Free https://play.google.com/store/apps/details?id=</string>
+    <string name="conne_msg1">¡¡¡No hay conexion de red!!!</string>
+    <string name="app_id">id</string>
+    <string name="continue_btn_text">Continuar</string>
+    <string name="cancel_btn_text">Cancelar</string>
+    <string name="revisando_tu_conexion_de_internet">Revisando tu conexion de internet…</string>
+    <string name="obteniendo_enlaces">Obteniendo Enlaces</string>
+    <string name="cargando_servidores">Cargando Servidores</string>
+    <string name="loading">Cargando</string>
+    <string name="background">background</string>
+</resources>

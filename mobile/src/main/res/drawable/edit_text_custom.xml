@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+            <solid android:color="@color/item_background_opacity" />
+            <stroke android:width="@dimen/_1sdp" android:color="@color/tv_selector"></stroke>
+
+        </shape>
+    </item>
+
+    <item >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+            <solid android:color="@color/item_background_opacity" />
+
+        </shape>
+    </item>
+</selector>
